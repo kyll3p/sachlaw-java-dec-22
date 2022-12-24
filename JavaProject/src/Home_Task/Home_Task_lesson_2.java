@@ -11,8 +11,8 @@ public class Home_Task_lesson_2 {
         int myInt = -2147483648;
         int myInt2 = 2147483647;
 
-        long myLong = -9223372;
-        long myLong2 = 922337203;
+        long myLong = -9223372l;
+        long myLong2 = 922337203l;
 
         System.out.println("myByte = " + myByte);
         System.out.println("myByte2 = " + myByte2);
