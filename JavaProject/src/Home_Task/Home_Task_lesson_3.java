@@ -18,7 +18,7 @@ public class Home_Task_lesson_3 {
 
         //task 2
         int x = 10, y = 12, z = 3;
-        
+
         System.out.println("x = " + (x += y - x++ * z));
         System.out.println("x = " + (z = --x - y * 5));
         System.out.println("x = " + (y /= x + 5 % z));
