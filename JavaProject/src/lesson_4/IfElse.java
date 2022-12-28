@@ -18,6 +18,7 @@ public class IfElse {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter number: ");
         number = input.nextInt();
+        String whoAreYou;
 
 
         if(number % 2 == 0) {
