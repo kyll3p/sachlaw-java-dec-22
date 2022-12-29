@@ -37,15 +37,17 @@ public class CoffeeMachine {
                     break;
             }
 
-            if (budget >= drinkCost) {
-                System.out.println("Drink number " + userChoise + " was chosen.");
-                System.out.println("Take your drink!");
-                System.out.println("Your change is " + (budget - drinkCost));
+            if (userChoise > 0 && userChoise <= 4) {
+                if (budget >= drinkCost) {
+                    System.out.println("Drink number " + userChoise + " was chosen.");
+                    System.out.println("Take your drink!");
+                    System.out.println("Your change is " + (budget - drinkCost));
 
-                budget -= drinkCost;
-                System.out.println("budget = " + budget);
-            } else {
-                System.out.println("Your budget " + budget + " is not enough to buy drink  with a cost  " + drinkCost);
+                    budget -= drinkCost;
+                    System.out.println("budget = " + budget);
+                } else {
+                    System.out.println("Your budget " + budget + " is not enough to buy drink  with a cost  " + drinkCost);
+                }
             }
 
         } else if (budget == 0) {
