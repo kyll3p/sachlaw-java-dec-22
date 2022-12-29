@@ -33,5 +33,6 @@ public class UserSystem {
         } else {
             System.out.println("No user with this name " + newUserName);
         }
+        input.close();
     }
 }
