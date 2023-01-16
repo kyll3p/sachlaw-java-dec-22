@@ -17,15 +17,7 @@ public class AreArraysEqual {
         System.out.println(getArraysEquals(arrayFirst, arraySecond));
 
         System.out.println(getArray(arrayFirst, arraySecond));
-
-//        System.out.println(getArrayStream(arrayFirst, arraySecond));
     }
-
-//    public static boolean getArrayStream (int[] a1, int[] a2) {
-//        return IntStream.range(0, a1.length)
-//                .map(i -> (a2[i] == a1[i])
-//                .toArray();
-//    }
 
     public static boolean getArray (int[] a1, int[] a2) {
         if (a1 == a2) {
