@@ -12,7 +12,6 @@ public class MyCars {
                             new Wheel(18, 2.4),
                             new Wheel(18, 2.4),
                             new Wheel(18, 2.4),
-                            new Wheel(18, 2.4),
                             new Wheel(18, 2.4)
                         }
         );
